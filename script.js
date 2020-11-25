@@ -51,9 +51,12 @@ async function predict() {
     const className = prediction[i].className;
     const probability = prediction[i].probability.toFixed(2) * 100;
 
+
+    // 여기입니다 ㅠㅠ 
     const data = {
-      Me: 'Me에 대한 설명을 적어볼까요?',
-      None: 'None에 대한 설명을 적어볼까요?',
+      note: 'note에 대한 설명을 적어볼까요?',
+      none: 'None에 대한 설명을 적어볼까요?',
+      sharp: 'sharp에 대한 설명을 적어볼까요?',
     };
 
     if (probability >= 75) {
