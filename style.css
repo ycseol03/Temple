@@ -36,9 +36,9 @@ body {
 .camera {
   width: 380px;
   height: 380px;
-  box-shadow: 2px 2px 4px #7ed6df;
+  box-shadow: 2px 2px 4px #78e08f;
   border-radius: 10%;
-  background-color: #7ed6df;
+  background-color: #78e08f;
 }
 
 .name {
