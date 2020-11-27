@@ -1,6 +1,6 @@
 const icon = document.querySelector('.icon');
-const off = document.querySelector('.fas.fa-video');
 const on = document.querySelector('.fas.fa-video-slash');
+const off = document.querySelector('.fas.fa-video');
 const camera = document.querySelector('.camera');
 const name = document.querySelector('.name');
 const percent = document.querySelector('.percent');
