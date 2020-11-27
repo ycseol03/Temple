@@ -60,13 +60,14 @@ body {
   font-size: 20px;
   font-family: math;
   color: #130f40;
-
+}
 .description {
   margin-top: 10px;
   padding: 1px;
   font-size: medium;
   font-family: -webkit-pictograph;
   color: #3498db;
+}
 
 .icon .invisible {
   display: none;
