@@ -54,14 +54,13 @@ async function predict() {
 
     // 여기입니다 
     const data = {
-      dog:'dog에 대한 설명을 적어볼까요?',
-      cat:'cat에 대한 설명을 적어볼까요?',
-      pen:'pen에 대한 설명을 적어볼까요?',
-      rabbit:'rabbit에 대한 설명을 적어볼까요?',
-      sheepl:'sheep에 대한 설명을 적어볼까요?',
-      monkey:'monkey에 대한 설명을 적어볼까요?',
-      chicken:'chicken에 대한 설명을 적어볼까요?',
-      horse:'horse에 대한 설명을 적어볼까요?',
+      dog:'당신의 동물형은 개입니다.',
+      cat:'당신의 동물형은 고양이입니다.',
+      rabbit:'당신의 동물형은 토끼입니다.',
+      sheepl:'당신의 동물형은 양입니다.',
+      monkey:'당신의 동물형은 원숭이입니다.',
+      chicken:'당신의 동물형은 닭입니다.',
+      horse:'당신의 동물형은 말입니다.',
     };
 
     if (probability >= 75) {
