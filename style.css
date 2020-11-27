@@ -36,11 +36,9 @@ body {
 .camera {
   width: 380px;
   height: 380px;
-  border-radius: 10px;
-  border-top-right-radius: 2px;
-  border-bottom-left-radius: 2px;
-  background-color: lightgreen;
   box-shadow: 2px 2px 4px rgba(100, 200, 0, 1);
+  border-radius: 10%;
+  background-color: lightgreen;
 }
 
 .name {
