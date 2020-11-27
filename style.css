@@ -13,7 +13,9 @@ body {
   box-shadow: 2px 2px 2px #81ecec;
   border-radius: 10px;
   border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .icon {
