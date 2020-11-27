@@ -36,7 +36,6 @@ body {
 .camera {
   width: 380px;
   height: 380px;
-  box-shadow: 2px 2px 4px rgba(100, 200, 0, 1);
   border-radius: 10%;
   background-color: lightgreen;
 }
