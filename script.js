@@ -52,18 +52,18 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
 
-    // 여기입니다 ㅠㅠ 
+    // 여기입니다 
     const data = {
-      Sharp core: ' Sharp core에 대한 설명을 적어볼까요?',
-      sharp: 'sharp에 대한 설명을 적어볼까요?',
-      pen: 'pen에 대한 설명을 적어볼까요?',
-      Ballpoint pen: 'Ballpoint pen에 대한 설명을 적어볼까요?',
-      pencil: 'pencil에 대한 설명을 적어볼까요?',
-      highlighter: 'highlighter에 대한 설명을 적어볼까요?',
-      Eraser: 'Eraser에 대한 설명을 적어볼까요?',
-      pool: 'pool에 대한 설명을 적어볼까요?',
-      tape: 'tape에 대한 설명을 적어볼까요?',
-      note: 'note에 대한 설명을 적어볼까요?',
+      Sharp core:'Sharp core에 대한 설명을 적어볼까요?',
+      sharp:'sharp에 대한 설명을 적어볼까요?',
+      pen:'pen에 대한 설명을 적어볼까요?',
+      Ballpoint pen:'Ballpoint pen에 대한 설명을 적어볼까요?',
+      pencil:'pencil에 대한 설명을 적어볼까요?',
+      highlighter:'highlighter에 대한 설명을 적어볼까요?',
+      Eraser:'Eraser에 대한 설명을 적어볼까요?',
+      pool:'pool에 대한 설명을 적어볼까요?',
+      tape:'tape에 대한 설명을 적어볼까요?',
+      note:'note에 대한 설명을 적어볼까요?',
     };
 
     if (probability >= 75) {
