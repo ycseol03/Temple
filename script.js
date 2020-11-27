@@ -54,16 +54,14 @@ async function predict() {
 
     // 여기입니다 
     const data = {
-      Sharp core:'Sharp core에 대한 설명을 적어볼까요?',
-      sharp:'sharp에 대한 설명을 적어볼까요?',
+      dog:'dog에 대한 설명을 적어볼까요?',
+      cat:'cat에 대한 설명을 적어볼까요?',
       pen:'pen에 대한 설명을 적어볼까요?',
-      Ballpoint pen:'Ballpoint pen에 대한 설명을 적어볼까요?',
-      pencil:'pencil에 대한 설명을 적어볼까요?',
-      highlighter:'highlighter에 대한 설명을 적어볼까요?',
-      Eraser:'Eraser에 대한 설명을 적어볼까요?',
-      pool:'pool에 대한 설명을 적어볼까요?',
-      tape:'tape에 대한 설명을 적어볼까요?',
-      note:'note에 대한 설명을 적어볼까요?',
+      rabbit:'rabbit에 대한 설명을 적어볼까요?',
+      sheepl:'sheep에 대한 설명을 적어볼까요?',
+      monkey:'monkey에 대한 설명을 적어볼까요?',
+      chicken:'chicken에 대한 설명을 적어볼까요?',
+      horse:'horse에 대한 설명을 적어볼까요?',
     };
 
     if (probability >= 75) {
